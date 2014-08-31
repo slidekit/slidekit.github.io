@@ -22,7 +22,7 @@ Slide Show Templates Using HTML5, CSS3 'n' JavaScript
 
 ## What's S5? What's S6?  {#whatis}
 
-Simple Standards-based Slide Show System (S5) is Eric Meyer's (of CSS fame) public domain
+Simple Standards-based Slide Show System (S5) is a classic public domain
 (free, open source) slide show package inspired by Opera Show and others that works
 in all modern browsers without any plugin required
 because it includes its own slide show machinery in JavaScript.
