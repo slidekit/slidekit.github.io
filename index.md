@@ -5,9 +5,34 @@ title: Welcome
 
 # {{ page.title }}
 
+<div class="toc" markdown="1">
+Contents:
+
+* [What's S5? What's S6?](#whatis)
+* [S6 in Action - Sample Slide Shows Online](#demos)
+* [Templates](#templates)
+    * [Classic](#classic)
+    * [Modern](#modern)
+* [Bonus: What's Slide Show (S9)? Slide Show Generator for S6](#s9)
+* [About, License - Questions? Comments?](#about)
+</div>
+
+
 Slide Show Templates Using HTML5, CSS3 'n' JavaScript
 
-## S6 in Action - Sample Slide Shows Online
+## What's S5? What's S6?  {#whatis}
+
+Simple Standards-based Slide Show System (S5) is Eric Meyer's (of CSS fame) public domain
+(free, open source) slide show package inspired by Opera Show and others that works
+in all modern browsers without any plugin required
+because it includes its own slide show machinery in JavaScript.
+More [S5 Project Site »](http://meyerweb.com/eric/tools/s5)
+
+S6 started as a rewrite of S5 using the jQuery JavaScript library - offering
+easier to understand and easier to extend code. Add plugins, effects and more.
+Contributions welcome!
+
+## S6 in Action - Sample Slide Shows Online  {#demos}
 
 Try some slide show samples powered by S6:
 
@@ -32,33 +57,11 @@ Keyboard controls:
 | Show/hide slide controls (Ø « »)                   | C, Move mouse to bottom right corner                        |
 
 
+## Templates  {#templates}
 
-## What's S5? What's S6?
+### Classic {#classic}
 
-Simple Standards-based Slide Show System (S5) is Eric Meyer's (of CSS fame) public domain
-(free, open source) slide show package inspired by Opera Show and others that works
-in all modern browsers without any plugin required
-because it includes its own slide show machinery in JavaScript.
-More [S5 Project Site »](http://meyerweb.com/eric/tools/s5)
-
-S6 started as a rewrite of S5 using the jQuery JavaScript library - offering
-easier to understand and easier to extend code. Add plugins, effects and more.
-Contributions welcome!
-
-## What's Slide Show (S9)? Slide Show Generator for S6 
-
-A Ruby gem that lets you create slide shows and author slides in plain text
-using a wiki-style markup language that's easy-to-write and easy-to-read
-and ships "out-of-the-gem" with S6 templates built-in.
-More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
-
-
-## Templates
-
-### Classic
-
-```html
-
+~~~
  <div class='slide cover'>
     <h1>Your Slide Title Here</h1>
     <ul>
@@ -96,11 +99,11 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
   <div class='slide'>
     <h1 class='fullscreen'>Another Slide - Using Fullscreen Heading</h1>
   </div>
-```
+~~~
 
-### Modern
+### Modern  {#modern}
 
-```html
+~~~
     <section class='slides'>
       <!-- Add your slides here. Delete or comment out the slides below. -->
       
@@ -196,18 +199,22 @@ More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
       </article>
       
     </section>
-```
+~~~
 
 
-## About, License
+
+## Bonus: What's Slide Show (S9)? Slide Show Generator for S6   {#s9}
+
+A Ruby gem that lets you create slide shows and author slides in plain text
+using a wiki-style markup language that's easy-to-write and easy-to-read
+and ships "out-of-the-gem" with S6 templates built-in.
+More [Slide Show (S9) Project Site »](http://slideshow-s9.github.io)
+
+
+## About, License   {#about}
 
 The slide show (S6) scripts and templates are dedicated
 to the public domain. Use it as you please with no restrictions whatsoever.
 
-## Questions? Comments?
-
-Send them along to
-the [Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow).
-Thanks!
 
 {% include questions.md %}
