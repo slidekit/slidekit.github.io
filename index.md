@@ -62,143 +62,122 @@ Keyboard controls:
 ### Classic {#classic}
 
 ~~~
- <div class='slide cover'>
-    <h1>Your Slide Title Here</h1>
-    <ul>
-      <li>Item One Here</li>
-      <li>Item Two Here</li>
-    </ul>
-  </div>
+<div class='slide cover'>
+  <h1>Your Slide Title Here</h1>
+  <ul>
+    <li>Item One Here</li>
+    <li>Item Two Here</li>
+  </ul>
+</div>
 
-  <div class='slide'>
-    <h1>Steps Demos</h1>
+<div class='slide'>
+  <h1>Steps Demos</h1>
 
-    <!-- mark list with class step to mark all items at once -->
-    <ul class='step'>
-      <li>Item 1.1 Here</li>
-      <li>Item 1.2 Here</li>
-    </ul>
+  <!-- mark list with class step to mark all items at once -->
+  <ul class='step'>
+    <li>Item 1.1 Here</li>
+    <li>Item 1.2 Here</li>
+  </ul>
 
-    <!-- or mark individual list items -->
-    <ul>
-      <li class='step'>Item 2.1 Here</li>
-      <li class='step'>Item 2.2 Here</li>
-    </ul>
+  <!-- or mark individual list items -->
+  <ul>
+    <li class='step'>Item 2.1 Here</li>
+    <li class='step'>Item 2.2 Here</li>
+  </ul>
 
-    <!-- or mark paragraphs, div blocks or whatever -->
-    <p class='step'>Another Step</p>
+  <!-- or mark paragraphs, div blocks or whatever -->
+  <p class='step'>Another Step</p>
+</div>
 
-  </div>
+<div class='slide'>
+  <h1>Another Slide Title Here</h1>
+  <p>yada yada yada</p>
+</div>
 
-  <div class='slide'>
-    <h1>Another Slide Title Here</h1>
-    <p>yada yada yada</p>
-  </div>
-
-  <!-- h1.fullscreen => uses only centered heading with no content/body -->
-  <div class='slide'>
-    <h1 class='fullscreen'>Another Slide - Using Fullscreen Heading</h1>
-  </div>
+<!-- h1.fullscreen => uses only centered heading with no content/body -->
+<div class='slide'>
+  <h1 class='fullscreen'>Another Slide - Using Fullscreen Heading</h1>
+</div>
 ~~~
 
 ### Modern  {#modern}
 
 ~~~
-    <section class='slides'>
-      <!-- Add your slides here. Delete or comment out the slides below. -->
+<section class='slides'>
+  <!-- Add your slides here. Delete or comment out the slides below. -->
+
+  <article class='cover'>
+    <h1>
+      Title Goes Here Up  <br>
+      To Two Lines
+    </h1>
+    <p>
+      Carlos Ruby  <br>
+      November 11, 2020
+    </p>
+  </article>
       
-      <article class='cover'>
-        <h1>
-          Title Goes Here Up
-          <br>
-          To Two Lines
-        </h1>
-        <p>
-          Carlos Ruby
-          <br>
-          November 11, 2020
-        </p>
-      </article>
+  <article>
+    <h3>Simple slide with header and text</h3>
+    <p>
+      This is a slide with just text. This is a slide with just text.
+      This is a slide with just text. This is a slide with just text.
+    </p>
+    <p>
+      There is more text just underneath with a <code>code sample: 5px</code>.
+    </p>
+  </article>
+
+  <article>
+    <h3>Slide with bullet points that builds</h3>
+    <ul class="build">
+      <li>This is an example of a list</li>
+      <li>The list items fade in</li>
+      <li>Last one!</li>
+    </ul>
+
+    <div class="build">
+      <p>Any element with child nodes can build.</p>
+      <p>It doesn't have to be a list.</p>
+    </div>
+  </article>
+
+  <article>
+    <h3>Slide with an image</h3>
+    <p>
+      <img style='height: 500px' src='images/example-graph.png'>
+    </p>
+    <div class='source'>
+      Source: Carlos Ruby
+    </div>
+  </article>
+
+  <article class='fill'>
+    <h3>Image filling the slide (with optional header)</h3>
+    <p>
+      <img src='images/example-cat.jpg'>
+    </p>
+    <div class='source white'>
+      Source: Carlos Ruby
+    </div>
+  </article>
       
-      <article>
-        <h3>
-          Simple slide with header and text
-        </h3>
-        <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-        </p>
-        <p>
-          There is more text just underneath with a <code>code sample: 5px</code>.
-        </p>
-      </article>
-
-      <article>
-        <h3>
-          Slide with bullet points that builds
-        </h3>
-        <ul class="build">
-          <li>
-            This is an example of a list
-          </li>
-          <li>
-            The list items fade in
-          </li>
-          <li>
-            Last one!
-          </li>
-        </ul>
-
-        <div class="build">
-          <p>Any element with child nodes can build.</p>
-          <p>It doesn't have to be a list.</p>
-        </div>
-      </article>
-
-      <article>
-        <h3>
-          Slide with an image
-        </h3>
-        <p>
-          <img style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Carlos Ruby
-        </div>
-      </article>
-
-      <article class='fill'>
-        <h3>
-          Image filling the slide (with optional header)
-        </h3>
-        <p>
-          <img src='images/example-cat.jpg'>
-        </p>
-        <div class='source white'>
-          Source: Carlos Ruby
-        </div>
-      </article>
-      
-      <article class='nobackground'>
-        <h3>
-          A slide with an embed + title
-        </h3>
+  <article class='nobackground'>
+    <h3>A slide with an embed + title</h3>
         
-        <iframe src='http://slideshow-s9.github.io'></iframe>
-      </article>
+    <iframe src='http://slideshow-s9.github.io'></iframe>
+  </article>
 
-      <article class='slide nobackground'>
-        <iframe src='http://slideshow-s9.github.io'></iframe>
-      </article>
+  <article class='slide nobackground'>
+    <iframe src='http://slideshow-s9.github.io'></iframe>
+  </article>
 
-      <article class='fill'>
-        <h3>
-          Full-slide embed with (optional) slide title on top
-        </h3>
-        <iframe src='http://slideshow-s9.github.io'></iframe>
-      </article>
-      
-    </section>
+  <article class='fill'>
+    <h3>Full-slide embed with (optional) slide title on top</h3>
+    <iframe src='http://slideshow-s9.github.io'></iframe>
+  </article>
+
+</section>
 ~~~
 
 
