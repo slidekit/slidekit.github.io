@@ -1,4 +1,9 @@
-# S6 Format for Plugins / Addons
+---
+layout: default
+title: S6 Format for Plugins / Addons
+---
+
+# {{ page.title }}
 
 ## Custom Events 
 
@@ -11,3 +16,6 @@ S6 fires the following events (to let plugins/addons get hooks into the JavaScri
 * `slideshow.debug.off`
 * `slideshow.change( from, to )`
 
+
+
+{% include questions.md %}

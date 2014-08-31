@@ -1,4 +1,11 @@
-# S6 Docs
+---
+layout: default
+title: Welcome
+---
+
+# {{ page.title }}
+
+
 
 ## Format
 
@@ -10,3 +17,6 @@
 ## Tips & Tricks
 
 TBD
+
+
+{% include questions.md %}

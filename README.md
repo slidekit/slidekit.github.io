@@ -1,4 +1,3 @@
-slidekit.github.io
-==================
 
-S6 Website
+S6 Website - [slidekit.github.io](http://slidekit.github.io)
+

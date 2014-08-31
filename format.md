@@ -1,4 +1,9 @@
-# S6 Format
+---
+layout: default
+title: S6 Format
+---
+
+# {{ page.title }}
 
 
 ## Media Types 
@@ -78,3 +83,6 @@ Relative:
 * center
 * left
 
+
+
+{% include questions.md %}

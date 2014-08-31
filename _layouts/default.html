@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>{{ page.title }} - S6 - Slide Show Templates Using HTML5, CSS3 'n' JavaScript</title>
+   <link rel="stylesheet" href="css/slidekit.css" type="text/css">
+  <!--  
+   <link rel="icon"       href="i/favicon.png"   type="image/png">
+   -->
+
+</head>
+<body>
+
+  <div id="header">
+    <span class='big'>S6</span>
+    <span class='small'>Slide Show Templates Using HTML5, CSS3 'n' JavaScript</span>
+  </div>
+
+  <div id="nav">
+   
+    <a href="index.html">Home</a> |
+    <a href="s6/blank.html">S6 Blank Template</a> |
+    <a href="s6-samples/sample.html">S6 Sample Template</a> |
+    <a href="format.html">Format</a> |
+    <a href="plugins.html">Plugins</a> |
+
+    <a href="http://groups.google.com/group/webslideshow">What's New? &middot; Forum (Questions? Comments?)</a> |
+
+    <a href="https://github.com/slidekit">Code, Repo</a>
+     
+  </div>
+    
+    <div id="content">
+      {{ content }}
+      
+      {% include editme.html %}
+    </div>
+
+</body>
+</html>
